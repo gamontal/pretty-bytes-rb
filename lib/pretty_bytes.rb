@@ -1,7 +1,7 @@
 require "pretty_bytes/version"
 
 class PrettyBytes
-  def self(num)
+  def convert(num)
     if num.is_a? Numeric
       neg = num < 0
 	    units = ['B', 'kB', 'MB', 'GB', 'TB', 'PB', 'EB', 'ZB', 'YB']
