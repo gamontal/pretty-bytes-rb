@@ -1,4 +1,4 @@
-# pretty-bytes-rb [![Build Status](https://travis-ci.org/gmontalvoriv/pretty-bytes-rb.svg)](https://travis-ci.org/gmontalvoriv/pretty-bytes-rb)
+# pretty-bytes-rb [![Build Status](https://travis-ci.org/gmontalvoriv/pretty-bytes-rb.svg)](https://travis-ci.org/gmontalvoriv/pretty-bytes-rb) [![Gem Version](https://badge.fury.io/rb/pretty_bytes.svg)](https://badge.fury.io/rb/pretty_bytes)
 
 > Convert bytes to a human readable string: 1337 → 1.34 kB
 
