@@ -13,7 +13,7 @@ if option == "help"
   puts "Example"
   puts "  $ pretty-bytes 1337"
   puts "  1.34 kB"
-elsif option.to_i == 0 || option == ''
+elsif option == nil || /\D/ === option
   puts "Expected a number"
 else
   puts pb.convert(option.to_i)
