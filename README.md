@@ -23,6 +23,21 @@ Or install it yourself as:
 
 ## Usage
 
+#### CLI
+
+```
+$ pretty-bytes help
+
+  Usage
+    $ pretty-bytes <number>
+
+  Example
+    $ pretty-bytes 1337
+    1.34 kB
+```
+
+#### API
+
 ```ruby
 require "pretty_bytes"
 pb = PrettyBytes.new

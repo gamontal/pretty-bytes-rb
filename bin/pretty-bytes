@@ -1,0 +1,20 @@
+#!/usr/bin/env ruby
+
+require "bundler/setup"
+require "pretty_bytes"
+pb = PrettyBytes.new
+
+option = ARGV[0]
+
+if option == "help"
+  puts "Usage"
+  puts "  $ pretty-bytes <number>"
+  puts " "
+  puts "Example"
+  puts "  $ pretty-bytes 1337"
+  puts "  1.34 kB"
+elsif option.to_i == 0 || option == ''
+  puts "Expected a number"
+else
+  puts pb.convert(option.to_i)
+end
