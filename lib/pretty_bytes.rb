@@ -1,4 +1,4 @@
-require "pretty_bytes/version"
+require 'pretty_bytes/version'
 
 class PrettyBytes
   def convert(num)
@@ -21,7 +21,7 @@ class PrettyBytes
 	    return (neg ? '-' : '') + "#{num} " + unit
 
     else
-	    return "Expected a number"
+	    return 'Expected a number'
 	  end
   end
 end
